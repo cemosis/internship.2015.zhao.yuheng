@@ -6,4 +6,4 @@
 ## My daily work reports.
 | date | Yuheng |
 | --- | --- |
-|2015-07-06 | [Set github repositories and working on index page](report/Daily/2015-07-06.md) |
+|2015-07-06 | [Set github repositories and working on index page](Report/dailyReport/2015-07-06.md) |
