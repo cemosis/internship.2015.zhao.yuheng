@@ -8,3 +8,4 @@
 | --- | --- |
 |2015-07-06 | [Set github repositories and working on index page](Report/dailyReport/2015-07-06.md) |
 |2015-07-07 | [Website recreation with Bootstrap](Report/dailyReport/2015-07-07.md) |
+|2015-07-08 | [Reponsive option, font-awesome icon](Report/dailyReport/2015-07-08.md)
