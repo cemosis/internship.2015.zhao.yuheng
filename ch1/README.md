@@ -1,0 +1,1 @@
+The first chapter of this report is contains my works in the week 28 of 2015. In the first week, i mainly make the prototype of the CSMI website on github.
