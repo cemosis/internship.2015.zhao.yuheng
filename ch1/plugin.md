@@ -6,7 +6,7 @@ Font Awesome is a full suite of 519 pictographic icons for easy scalable vector 
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-```html
+```
 
 ## Usage and result
 
@@ -89,7 +89,7 @@ It must be included after jquery.
         moreLink: '<a href="#">Lire la suite...</a>'  
       });      
     </script>
-```html
+```
 
 The code calls readmore() function with the 4 testimonies currently put in the index page. The collapsedHeight will determine if the text zone need to be collapsed. And the lessLink and moreLink are just fake links to interacts with user.
 
