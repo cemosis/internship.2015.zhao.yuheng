@@ -10,7 +10,7 @@
 |2015-07-07 | [Website recreation with Bootstrap](Report/dailyReport/2015-07-07.md) |
 |2015-07-08 | [Reponsive option, font-awesome icon](dailyReport/2015-07-08.md) |
 |2015-07-08 | [Jssocial share plugin, course table and replace icons](dailyReport/2015-07-09.md) |
-|2015-07-13 | [Jekyll localization](dailyReport.2015-07-13.md)
+|2015-07-13 | [Jekyll localization](dailyReport/2015-07-13.md)
 
 ## The weekly report Gitbook:
 
