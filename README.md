@@ -11,7 +11,8 @@
 |2015-07-08 | [Reponsive option, font-awesome icon](dailyReport/2015-07-08.md) |
 |2015-07-08 | [Jssocial share plugin, course table and replace icons](dailyReport/2015-07-09.md) |
 |2015-07-13 | [Jekyll localization](dailyReport/2015-07-13.md)
-
+|2015-07-15 | [Link between languages](dailyReport/2015-07-15.md)
+|2015-07-16 | [Localization plugin bug fix](dailyReport/2015-07-16.md)
 ## The weekly report Gitbook:
 
 [Weekly Report](http://solael.gitbooks.io/report)
