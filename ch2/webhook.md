@@ -27,7 +27,7 @@ Github provides us webhook for each repository, it allows us to build or set up 
 | team_add |	Any time a team is added or modified on a Repository. |
 | watch | Any time a User watches a Repository.|
 
-So what need to do is set up a server with an URL address that can receive webhooks from github, and it reads the data generated in JSON format. When there is push event, the server will deploy the csmi website with newest source code. 
+So what need to do is set up a server with an URL address that can receive webhooks from github, and it reads the data generated in JSON format. When there is push event comming in, the server will deploy the csmi website with newest source code. 
 
 ## Jekyll-hook installation and setup
 
