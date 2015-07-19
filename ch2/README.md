@@ -1,0 +1,1 @@
+Chapter 2 contains my works in the week 29 of 2015. The CSMI websites grows bigger with much content filled in. So I was mainly working on the localization feature and auto deployment scripts.

@@ -1,6 +1,6 @@
 ## Github webhook
 
-Github provides us webhook for each repository, it allows us to build or set up integrations which subscribe to certain events on Github.com. When one of these event below is triggered, github will send a HTTP POST payload to the webhook's configured URL. What we want to do is when our repository gets a new "push", the server receives a push event and it deploys automatically the newest version of our project on the server.
+Github provides us webhook for each repository, it allows us to build or set up integrations which subscribe to certain events on Github.com. When one of these event below is triggered, github will send an HTTP POST payload to the webhook's configured URL. What we want to do is when our repository gets a new "push", the server receives a push event and it deploys automatically the newest version of our project on the server.
 
 | name | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ server {
 
 ```
 
-## Make it work
+## Make it work permanently
 To run the program, simply go into jekyll-hook's folder or using absolute path to run `.jekyll-hook.js`
 
 But to make it continuous running， execute it with forever : `forever start jekyll-hook.js`

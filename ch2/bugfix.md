@@ -1,0 +1,29 @@
+# Localization plugin bug fix
+
+When I created the news webpage, jekyll can't read the build-in data type `post`. So i created a default basic website and test why it doesn't work. Once I add the localization plugin to the website, the post all disappeared. Then I went to the developer's github page and found out that there was a bug report. 
+
+I browsed the source code, and found this following code snippet.
+
+```ruby
+alias :read_posts_org :read_posts
+def read_posts(dir)
+  if dir == ''
+    read_posts("_i18n/#{self.config['lang']}/")
+  else
+    read_posts_org(dir)
+  end
+end
+```
+The read_posts method is a jekyll's built-in function that reads all the files in `<base>/_posts` and create a new Post object with each one. By default it will use `_posts` as parameter, but somehow it doesn't work correctly here.
+So what i did for now is that i passed `_posts` as parameter so that it can read correctly the post. Need to figure out what exactly this code snippet means to fix what the developer's intended to do. (Maybe he wants to put post in different language in the `_i18n` folder)
+
+```ruby
+alias :read_posts_org :read_posts
+def read_posts(dir)
+  if dir == '_posts'
+    read_posts("_i18n/#{self.config['lang']}/")
+  else
+    read_posts_org(dir)
+  end
+end
+```
