@@ -7,7 +7,7 @@
 | date | title |
 | --- | --- |
 |2015-07-06 | [Set github repositories and working on index page](dailyReport/2015-07-06.md) |
-|2015-07-07 | [Website recreation with Bootstrap](Report/dailyReport/2015-07-07.md) |
+|2015-07-07 | [Website recreation with Bootstrap](dailyReport/2015-07-07.md) |
 |2015-07-08 | [Reponsive option, font-awesome icon](dailyReport/2015-07-08.md) |
 |2015-07-08 | [Jssocial share plugin, course table and replace icons](dailyReport/2015-07-09.md) |
 |2015-07-13 | [Jekyll localization](dailyReport/2015-07-13.md)
