@@ -14,6 +14,7 @@
 |2015-07-15 | [Link between languages](dailyReport/2015-07-15.md)
 |2015-07-16 | [Localization plugin bug fix](dailyReport/2015-07-16.md)
 |2015-07-20 | [Jekyll-hook installation on internal server](dailyReport/2015-07-20.md)
+|2015-07-21 | [News page refactoring](dailyReport/2015-07-21.md)
 ## The weekly report Gitbook:
 
 [Weekly Report](http://solael.gitbooks.io/report)
