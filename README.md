@@ -10,11 +10,12 @@
 |2015-07-07 | [Website recreation with Bootstrap](dailyReport/2015-07-07.md) |
 |2015-07-08 | [Reponsive option, font-awesome icon](dailyReport/2015-07-08.md) |
 |2015-07-08 | [Jssocial share plugin, course table and replace icons](dailyReport/2015-07-09.md) |
-|2015-07-13 | [Jekyll localization](dailyReport/2015-07-13.md)
-|2015-07-15 | [Link between languages](dailyReport/2015-07-15.md)
-|2015-07-16 | [Localization plugin bug fix](dailyReport/2015-07-16.md)
-|2015-07-20 | [Jekyll-hook installation on internal server](dailyReport/2015-07-20.md)
-|2015-07-21 | [News page refactoring](dailyReport/2015-07-21.md)
+|2015-07-13 | [Jekyll localization](dailyReport/2015-07-13.md) |
+|2015-07-15 | [Link between languages](dailyReport/2015-07-15.md) |
+|2015-07-16 | [Localization plugin bug fix](dailyReport/2015-07-16.md) |
+|2015-07-20 | [Jekyll-hook installation on internal server](dailyReport/2015-07-20.md) |
+|2015-07-21 | [News page refactoring](dailyReport/2015-07-21.md) |
+|2015-07-22 | [Fix logo links](dailyReport/2015-07-22.md) |
 ## The weekly report Gitbook:
 |2015-07-22 | [Make it responsive](dailyReport/2015-07-22.md)
 [Weekly Report](http://solael.gitbooks.io/report)
