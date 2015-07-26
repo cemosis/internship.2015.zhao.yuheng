@@ -10,3 +10,8 @@
 	* [Switch between languages](ch2/languages.md)
 	* [Localization plugin bug fix](ch2/bugfix.md)
 	* [Deploy with Github weebhook](ch2/webhook.md)
+* [Chapter 3](ch3/README.md)
+	* [News page refactoring](ch3/refactor.md)
+	* [Reponsive slide show](ch3/reponsive.md)
+	* [Custom Bootstrap parameter](ch3/custom.md)
+	* [Depoly doxygen documentation at the same time](ch3/doxygen.md)
