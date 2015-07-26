@@ -15,8 +15,8 @@
 |2015-07-16 | [Localization plugin bug fix](dailyReport/2015-07-16.md) |
 |2015-07-20 | [Jekyll-hook installation on internal server](dailyReport/2015-07-20.md) |
 |2015-07-21 | [News page refactoring](dailyReport/2015-07-21.md) |
-|2015-07-22 | [Fix logo links](dailyReport/2015-07-22.md) |
-|2015-07-23 | [Make it responsive](dailyReport/2015-07-23.md)
+|2015-07-22 | [Make it responsive](dailyReport/2015-07-22.md) |
+|2015-07-23 | [Fix logo links](dailyReport/2015-07-23.md)
 
 ## The weekly report Gitbook:
 
