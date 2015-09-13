@@ -1,10 +1,10 @@
 # Internship report at Cemosis
 <div style="position:absolute;bottom:0">
-July - August 2015
+<p>July - August 2015<p>
 
-**Student**: Yuheng Zhao
+<p><b>Student</b>: Yuheng Zhao</p>
 
-**Internship Company**: Cemosis, Unistra
+<p><b>Internship Company</b>: Cemosis, Unistra</p>
 
-**Internship Supervisor**: Christophe Prud'homme
+<p><b>Internship Supervisor</b>: Christophe Prud'homme</p>
 </div>
