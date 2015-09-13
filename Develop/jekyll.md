@@ -1,7 +1,7 @@
 #Develop Website With Jekyll
 In simplest terms, Jekyll is a website generator. It takes a template directory containing raw text files in various formats, such as Markdown (or Textile), or HTML, and runs those files through converters, then generates a static HTML website that can be hosted on a web server.
 
-Jekyll is also the engine behind GitHub Pages which is probably Jekyll’s easiest to use hosting solution. With it I can simply upload my Jekyll blog to a free GitHub repository and have it automatically compiled and deployed each time you commit. This blog site is hosted on GitHub Pages, for free.
+Jekyll is also the engine behind GitHub Pages which is probably Jekyll’s easiest to use hosting solution. With it I can simply upload my Jekyll blog to a free GitHub repository.
 
 ##Why would we use Jekyll?
 
