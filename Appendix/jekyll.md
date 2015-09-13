@@ -182,7 +182,7 @@ members.yml
 
 ### Build html table for courses:
 course-table.html
-```yml
+```html
  <table >
     <tbody>
       <tr>
