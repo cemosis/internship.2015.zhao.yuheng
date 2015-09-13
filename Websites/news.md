@@ -4,7 +4,9 @@ What we want is figuring out a way to easily maintain these three folders. So he
 
 `_posts`
 |-- csmi
+
 |-- cemosis
+
 |-- feelpp
 
 Briefly I migrated all Markdown files from old `_posts` folders into appropriate sub folders.
