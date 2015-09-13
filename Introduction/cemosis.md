@@ -11,8 +11,8 @@ In general, Cemosis devotes to model, simulate and resolve difficult problems in
 
 During my internship, I worked on following websites that owned by Cemosis:
 - www.feelpp.org
-- doc.feelpp.org and it's alias docs.feelpp.org
-- csmi.math.unistra.fr and it's alias csmi.cemosis.fr
+- doc.feelpp.org
+- csmi.math.unistra.fr and its alias csmi.cemosis.fr
 - www.cemosis.fr
 
-Before the work done during my internship, the website www.cemosis.fr is a website hosted on Google Sites. I was assigned to rebuild a new version website with Jekyll and to migrate all of its contents into the new one. The new website will be hosted on a dedicated server owned by the Unversity of Strasbourg.
+Before the work done during my internship, the website www.cemosis.fr is a website hosted on Google Sites. I was assigned to rebuild a new version website with `Jekyll`(a static website generator written in Ruby) and to migrate all of its contents into the new one. The new website will be hosted on a dedicated server owned by the Unversity of Strasbourg.
