@@ -234,30 +234,51 @@ Result page:
 ### For professors' side:
 team.html
 ```html
-<table>
-	<tbody>
-	<tr>
-    	<td colspan="2" style="text-align:center"><h3>{{ member.position }}</h3></td>
-    </tr>
-    <tr>
-    	<td>
-        {% if member.photo %}
-        	<img src="{{ member.photo }}" width="128px">
-        {% else %}
-            <img src="/images/photos/unknown-id-128x128.png" width="128px">
-        {% endif %}
-        </td>
-        <td>
-        	<ul>
-            	<li>{{ member.name }}</li>
-                <li>{% t global.office %}: {{ member.office }}</li>
-                <li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
-                <li>{% t global.telephone %}: {{ member.telephone }}</li>
-       		</ul>
-		</td>
-	</tr>
-    </tbody>
-</table>
+            <table>
+                <tbody>
+                <tr>
+                    <td colspan="2"><h3>{{ member.name }}</h3></td>
+                </tr>
+                <tr>
+                <td>
+                {% if member.photo %}
+                    <img src="{{ member.photo }}" width="128px">
+                {% else %}
+                 <img src="/images/photos/unknown-id-128x128.png" width="128px">
+                {% endif %}
+                </td>
+                    <td>
+                        <ul>
+                            {% if member.office %}
+                            <li>Bureau: {{ member.office }}</li>
+                            {% endif %}
+                            <li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
+                            {% if member.web %}
+                             <li>WWW: <a href="{{ member.web }}">{{ member.web }}</a></li>
+                            {% endif %}
+                            {% if member.telephone %}
+                            <li>Téléphone: {{ member.telephone }}</li>
+                            {% endif %}
+                            <li>Cours:
+                                <ul>
+                                {% assign course = | member.course | split:";" %}
+                                {% for id in course %}
+                                    {% for course in site.data.course.course %}
+                                        {% if course.id == id %}
+                                        {% assign name = course.name %}
+                                        {% endif %}
+                                    {% endfor %}
+
+                                <li><a href="{{ link-lang }}/courses/#{{ id }}">{{ name }}</a></li>
+
+                            {% endfor %}
+                             </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
 ```
 Result:
 ![](professor.png)
