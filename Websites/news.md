@@ -3,6 +3,7 @@ As mentioned in the section before, all three websites(feelpp.org, csmi.math.uni
 What we want is figuring out a way to easily maintain these three folders. So here comes an idea that I put the contents in three folders into a single one folder always called `_posts`. As the name `_posts` is a mandatory of Jekyll's file structure. Now it contains three sub folders for each websites:
 
 `_posts`
+
 |-- csmi
 
 |-- cemosis
