@@ -4,4 +4,4 @@
 
 ## The final report Gitbook:
 
-[Internship Report](http://solael.gitbooks.io/report)
+[Internship Report](http://solael.gitbooks.io/internship-report/content/)
